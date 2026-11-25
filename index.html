@@ -3,42 +3,294 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Kosmos turar-joy majmuasi — G'ijduvon</title>
-<meta name="description" content="Kosmos turar-joy majmuasi, G'ijduvon tumani. Quruvchi: &quot;IN GOD WE TRUST&quot; MCHJ.">
-<link rel="stylesheet" href="style.css">
+<title>Kosmos turar joy majmuasi — G'ijduvon</title>
+<meta name="description" content="Kosmos — G'ijduvondagi 5 qavatli, liftli, pishgan g'ishtdan qurilgan turar joy majmuasi. 2 va 3 xonali xonadonlar: tayyor (kadastrli) va qurilish jarayonidagi. Quruvchi: &quot;IN GOD WE TRUST&quot; MCHJ.">
+<meta name="theme-color" content="#062F2B">
+<meta property="og:title" content="Kosmos turar joy majmuasi — G'ijduvon">
+<meta property="og:description" content="5 qavatli, liftli, pishgan g'ishtdan qurilgan uylar. 2 va 3 xonali xonadonlar.">
+<meta property="og:image" content="https://kosmostjm.uz/majmua.jpg">
+<meta property="og:url" content="https://kosmostjm.uz/">
+<link rel="icon" href="logo-gold.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="site.css">
 </head>
 <body>
-<header>
-  <img src="logo.jpg" alt="Kosmos logotipi">
-  <h1>Kosmos turar-joy majmuasi</h1>
-  <p>Buxoro viloyati, G'ijduvon tumani</p>
+
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <a class="nav__logo" href="#top" aria-label="Kosmos — bosh sahifa"><img src="logo-gold.png" alt="Kosmos"></a>
+    <nav class="nav__links" id="menu" aria-label="Asosiy menyu">
+      <a href="#majmua">Majmua</a>
+      <a href="#bloklar">Bloklar</a>
+      <a href="#xonadonlar">Xonadonlar</a>
+      <a href="#tolov">To'lov</a>
+      <a href="#atrof">Atrof</a>
+      <a href="#aloqa">Aloqa</a>
+      <a class="nav__call" href="tel:+998949739777">+998 94 973 97 77</a>
+    </nav>
+    <button class="nav__burger" id="burger" aria-label="Menyuni ochish" aria-expanded="false" aria-controls="menu"><span></span><span></span><span></span></button>
+  </div>
 </header>
-<nav><a href="index.html">Bosh sahifa</a><a href="maxfiylik.html">Maxfiylik siyosati</a></nav>
-<main>
-  <section>
-    <h2>Majmua haqida</h2>
-    <p>Kosmos — G'ijduvon tumanidagi zamonaviy ko'p qavatli turar-joy majmuasi: 5 qavatli, liftli, pishgan g'ishtdan qurilgan uylar. Sotuvda 2 va 3 xonali xonadonlar bor — kadastri chiqqan tayyor xonadonlar va qurilish jarayonidagi xonadonlar.</p>
-    <ul>
-      <li>To'lov: naqd, subsidiya, ipoteka (barcha banklar bilan), 3 oygacha bo'lib to'lash</li>
-      <li>Kadastri chiqqan xonadonlar notariusda shu kunning o'zida rasmiylashtiriladi</li>
-      <li>2 yil kafolat</li>
-    </ul>
-    <p class="muted">Narx va xonadonlar haqida aniq ma'lumotni sotuv ofisi beradi.</p>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <img class="hero__bg" src="majmua.jpg" alt="Kosmos turar joy majmuasining umumiy ko'rinishi">
+    <div class="hero__tint"></div>
+    <div class="hero__content">
+      <p class="eyebrow">Yulduzlar porlaydigan, sayyoralar jonlanadigan joy</p>
+      <h1 class="hero__title">Dunyo "Kosmos"<br>bilan go'zal</h1>
+      <p class="hero__lead">G'ijduvondagi 5 qavatli, liftli, pishgan g'ishtdan qurilgan zamonaviy turar joy majmuasi.</p>
+      <div class="hero__cta">
+        <a class="btn btn--gold" href="#xonadonlar">Xonadon tanlash</a>
+        <a class="btn btn--ghost" href="tel:+998949739777">Qo'ng'iroq qilish</a>
+      </div>
+    </div>
+    <div class="hero__foot">
+      <div class="hero__place"><span>G'ijduvon, Buxoro</span><b>Kosmos turar joy majmuasi</b></div>
+      <a class="hero__scroll" href="#majmua">Pastga <i aria-hidden="true">↓</i></a>
+    </div>
   </section>
-  <section class="contact">
-    <h2>Bog'lanish</h2>
-    <p><a class="btn" href="tel:+998949739777">+998 94 973 97 77</a>
-       <a class="btn" href="https://t.me/KosmosTJM1">Telegram</a>
-       <a class="btn" href="https://www.instagram.com/kosmos_gijduvon/">Instagram</a></p>
-    <p>Sotuv ofisi: dushanbadan shanbagacha, 9:00–18:00</p>
+
+  <!-- INTRO -->
+  <section class="intro reveal" id="majmua">
+    <div class="wrap intro__grid">
+      <h2 class="h-display">Birgalikda<br>yangi hayot<br>quramiz</h2>
+      <div>
+        <p class="lead">Kosmos — Buxoro viloyati, G'ijduvon tumanida "IN GOD WE TRUST" MCHJ quruvchi kompaniyasi barpo etayotgan ko'p qavatli turar joy majmuasi. Qurilish 2023-yil 10-oktabrda boshlangan.</p>
+        <p>Uylar pishgan g'ishtdan, 5 qavatli va liftli. Sotuvda 2 va 3 xonali xonadonlar bor: kadastri chiqqan, hoziroq kirib yashash mumkin bo'lgan tayyor xonadonlar va qurilish jarayonidagi (qora suvoq holatidagi) xonadonlar. Kompaniyaning barcha hujjatlari mavjud.</p>
+        <a class="link-arrow" href="#xonadonlar">Xonadonlarni ko'rish</a>
+      </div>
+    </div>
   </section>
-  <section>
-    <h2>Kompaniya</h2>
-    <p><b>"IN GOD WE TRUST" MAS'ULIYATI CHEKLANGAN JAMIYAT</b><br>
-       Manzil: Buxoro viloyati, G'ijduvon tumani, Todon MFY, Oydinkul ko'chasi, 74-uy<br>
-       Telefon: +998 94 973 97 77</p>
+
+  <!-- STATS -->
+  <section class="stats">
+    <div class="wrap stats__grid">
+      <div class="stat"><b>2023</b><span>qurilish boshlangan yil</span></div>
+      <div class="stat"><b>9</b><span>blok — har biri o'z sayyorasi nomida</span></div>
+      <div class="stat"><b>5</b><span>qavat, liftli uylar</span></div>
+      <div class="stat"><b>2 yil</b><span>kafolat</span></div>
+      <div class="stat"><b>2027</b><span>mart — topshirish muddati</span></div>
+    </div>
+  </section>
+
+  <!-- SEEING IS BELIEVING -->
+  <section class="split reveal">
+    <div class="split__img"><img src="hero.jpg" alt="Kosmos majmuasi: bloklar, hovli va bolalar maydonchalari" loading="lazy"></div>
+    <div class="split__text">
+      <p class="eyebrow eyebrow--dark">Majmua haqida</p>
+      <h2 class="h-section">Ko'rish — ishonish</h2>
+      <p>Xonadon tanlash — hayotdagi eng muhim qarorlardan biri. Shuning uchun biz sizni ofisga taklif qilamiz va obyektni o'z ko'zingiz bilan ko'rsatamiz: bloklar, hovli, xonadonlar.</p>
+      <ul class="ticks">
+        <li>Pishgan g'ishtdan qurilgan, 5 qavatli uylar</li>
+        <li>Har bir uyda lift</li>
+        <li>Hovlida bolalar maydonchalari, sport maydoni va avtoturargoh</li>
+        <li>Maktab va bog'cha — 200 metr masofada</li>
+      </ul>
+      <a class="btn btn--dark" href="#aloqa">Ekskursiyaga yozilish</a>
+    </div>
+  </section>
+
+  <!-- BLOCKS -->
+  <section class="blocks" id="bloklar">
+    <div class="wrap blocks__grid reveal">
+      <div class="blocks__text">
+        <p class="eyebrow">Bosh reja</p>
+        <h2 class="h-section h-section--light">Har bir blok —<br>o'z sayyorasi</h2>
+        <p>Majmua 9 ta blokdan iborat. Bloklar quyosh tizimi sayyoralari nomi bilan atalgan — bu Kosmos brendining g'oyasi. 9-blokda do'kon va bog'cha quriladi.</p>
+        <ul class="planets">
+          <li>Mercury</li><li>Venus</li><li>Earth</li><li>Mars</li><li>Jupiter</li><li>Saturn</li><li>Uranus</li><li>Neptune</li><li>Pluto</li>
+        </ul>
+      </div>
+      <figure class="blocks__img"><img src="reja-sayyoralar.jpg" alt="Kosmos bosh rejasi: har bir blok o'z sayyorasi nomida" loading="lazy"></figure>
+    </div>
+  </section>
+
+  <!-- APARTMENTS -->
+  <section class="flats" id="xonadonlar">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="eyebrow eyebrow--dark">Xonadonlar</p>
+        <h2 class="h-section">O'zingizga mosini tanlang</h2>
+        <p>Sotuvda 2 va 3 xonali xonadonlar bor. Ikki holatda: <b>tayyor</b> — kadastri chiqqan, notariusda shu kunning o'zida rasmiylashtiriladi; <b>qurilish jarayonida</b> — qora suvoq holatida, to'lov bank orqali.</p>
+      </div>
+      <div class="flats__grid">
+        <article class="flat reveal">
+          <div class="flat__gallery" data-gallery>
+            <img src="2-xonali-1.jpg" alt="2 xonali xonadon dizayn ko'rinishi" loading="lazy">
+            <div class="flat__thumbs">
+              <button aria-label="1-rasm" class="is-on" data-src="2-xonali-1.jpg"></button>
+              <button aria-label="2-rasm" data-src="2-xonali-2.jpg"></button>
+            </div>
+          </div>
+          <div class="flat__body">
+            <h3>2 xonali</h3>
+            <p>Yorug' mehmonxona, alohida yotoqxona, oshxona va hammom. Yosh oilalar va investitsiya uchun qulay.</p>
+            <div class="tags"><span>Tayyor</span><span>Qurilish jarayonida</span></div>
+            <a class="link-arrow" href="https://t.me/KosmosTJM1" target="_blank" rel="noopener">Narx va bo'sh xonadonlarni bilish</a>
+          </div>
+        </article>
+        <article class="flat reveal">
+          <div class="flat__gallery" data-gallery>
+            <img src="3-xonali-1.jpg" alt="3 xonali xonadon dizayn ko'rinishi" loading="lazy">
+            <div class="flat__thumbs">
+              <button aria-label="1-rasm" class="is-on" data-src="3-xonali-1.jpg"></button>
+              <button aria-label="2-rasm" data-src="3-xonali-2.jpg"></button>
+            </div>
+          </div>
+          <div class="flat__body">
+            <h3>3 xonali</h3>
+            <p>Katta oila uchun: mehmonxona, ikki yotoqxona, oshxona va hammom. Har bir a'zoga o'z joyi.</p>
+            <div class="tags"><span>Tayyor</span><span>Qurilish jarayonida</span></div>
+            <a class="link-arrow" href="https://t.me/KosmosTJM1" target="_blank" rel="noopener">Narx va bo'sh xonadonlarni bilish</a>
+          </div>
+        </article>
+      </div>
+      <p class="note">Rasmlar — dizayn namunasi. Aniq o'lcham va narxni sotuv ofisi aytadi.</p>
+    </div>
+  </section>
+
+  <!-- CLIENTS -->
+  <section class="voices reveal">
+    <div class="wrap voices__grid">
+      <div>
+        <p class="eyebrow">Mijozlarimiz nima deydi</p>
+        <h2 class="h-display h-display--light">Bir marta olib,<br>ikkinchisini ham<br>olishdi</h2>
+      </div>
+      <ul class="voices__list">
+        <li><b>Qishda ham muammosiz.</b> Oktyabrda ko'chib kirgan oilalar qishni qiyinchiliksiz o'tkazishgan — gaz, elektr va isitish uzluksiz ishlagan.</li>
+        <li><b>Qishda issiq, yozda salqin.</b> Pishgan g'isht uyni yil bo'yi shinam saqlaydi.</li>
+        <li><b>5 qavat, lekin lift bor.</b> Keksa ota-onalar va bolali oilalar uchun katta qulaylik.</li>
+        <li><b>Narxiga arziydi.</b> Mijozlar sifat sarflangan mablag'ga arziydi deyishadi va yaqinlari uchun ikkinchi xonadonni ham olishgan.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- PAYMENT -->
+  <section class="pay" id="tolov">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="eyebrow eyebrow--dark">To'lov</p>
+        <h2 class="h-section">Qulay to'lov usullari</h2>
+      </div>
+      <div class="pay__grid">
+        <div class="card reveal"><span class="card__n">01</span><h3>Naqd</h3><p>Kadastri chiqqan xonadon notariusda shu kunning o'zida rasmiylashtiriladi.</p></div>
+        <div class="card reveal"><span class="card__n">02</span><h3>Ipoteka</h3><p>20% boshlang'ich to'lov, yillik 17%. Barcha banklar bilan ishlaymiz.</p></div>
+        <div class="card reveal"><span class="card__n">03</span><h3>Subsidiya</h3><p>Davlat subsidiyasi bilan xarid qilish mumkin. Shartlarini menejer tushuntiradi.</p></div>
+        <div class="card reveal"><span class="card__n">04</span><h3>Bo'lib to'lash</h3><p>3 oygacha bo'lib to'lash imkoniyati.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="steps">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="eyebrow">Qanday xarid qilinadi</p>
+        <h2 class="h-section h-section--light">Qo'ng'iroqdan kalitgacha</h2>
+      </div>
+      <ol class="steps__list reveal">
+        <li><b>Qo'ng'iroq</b><span>Savollaringizga javob beramiz</span></li>
+        <li><b>Ofis</b><span>Sotuv ofisida tanishuv</span></li>
+        <li><b>Ekskursiya</b><span>Obyektni o'z ko'zingiz bilan ko'rasiz</span></li>
+        <li><b>Shartnoma</b><span>Barcha hujjatlar ochiq</span></li>
+        <li><b>To'lov</b><span>Bank orqali, xavfsiz</span></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- NEIGHBOURHOOD -->
+  <section class="near" id="atrof">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="eyebrow eyebrow--dark">Atrof</p>
+        <h2 class="h-section">Rivojlanayotgan hudud</h2>
+        <p>Kosmos atrofida yangi infratuzilma barpo etilmoqda. Har birining hozirgi holatini ochiq yozamiz.</p>
+      </div>
+      <div class="near__grid">
+        <div class="place reveal"><span class="pill pill--ok">200 metr</span><h3>Maktab va bog'cha</h3><p>Majmuadan 200 metr masofada.</p></div>
+        <div class="place reveal"><span class="pill">Qurilmoqda · 2027</span><h3>"Yangi O'zbekiston" bog'i</h3><p>5 gektarlik bog'. 2027-yilda topshirilishi rejalashtirilgan.</p></div>
+        <div class="place reveal"><span class="pill">Qurilmoqda · 2027</span><h3>Zamonaviy shifoxona</h3><p>650 o'rinli shifoxona. 2027-yilda topshirilishi rejalashtirilgan.</p></div>
+        <div class="place reveal"><span class="pill pill--plan">Rejalashtirilgan · 2028–2029</span><h3>Amfiteatr, favvora, stadion</h3><p>Musiqali favvora, amfiteatr va stadion qurilishi endi boshlanadi.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA / CONTACT -->
+  <section class="cta" id="aloqa">
+    <div class="cta__bg" aria-hidden="true"></div>
+    <div class="wrap cta__grid reveal">
+      <div>
+        <p class="eyebrow">Aloqa</p>
+        <h2 class="h-display h-display--light">Xonadonni<br>o'z ko'zingiz<br>bilan ko'ring</h2>
+        <p class="cta__lead">Qo'ng'iroq qiling yoki yozing — ofisga taklif qilamiz va obyektni ko'rsatamiz.</p>
+        <div class="hero__cta">
+          <a class="btn btn--gold" href="tel:+998949739777">+998 94 973 97 77</a>
+          <a class="btn btn--ghost" href="https://t.me/KosmosTJM1" target="_blank" rel="noopener">Telegram</a>
+          <a class="btn btn--ghost" href="https://www.instagram.com/kosmos_gijduvon/" target="_blank" rel="noopener">Instagram</a>
+        </div>
+      </div>
+      <dl class="cta__info">
+        <div><dt>Sotuv ofisi</dt><dd>Dushanba – shanba, 9:00–18:00</dd></div>
+        <div><dt>Manzil</dt><dd>Buxoro viloyati, G'ijduvon tumani, Todon MFY, Oydinko'l 1 ko'chasi</dd></div>
+        <div><dt>Telefon</dt><dd><a href="tel:+998949739777">+998 94 973 97 77</a></dd></div>
+        <div><dt>Ijtimoiy tarmoqlar</dt><dd><a href="https://www.instagram.com/kosmos_gijduvon/" target="_blank" rel="noopener">@kosmos_gijduvon</a> · <a href="https://t.me/KosmosTJM1" target="_blank" rel="noopener">@KosmosTJM1</a></dd></div>
+      </dl>
+    </div>
   </section>
 </main>
-<footer>© 2026 "IN GOD WE TRUST" MCHJ · Kosmos · <a href="maxfiylik.html">Maxfiylik siyosati / Privacy Policy</a></footer>
+
+<footer class="foot">
+  <div class="wrap foot__grid">
+    <img src="logo-gold.png" alt="Kosmos" class="foot__logo">
+    <div>
+      <p><b>"IN GOD WE TRUST" MAS'ULIYATI CHEKLANGAN JAMIYAT</b></p>
+      <p>Buxoro viloyati, G'ijduvon tumani, Todon MFY, Oydinkul ko'chasi, 74-uy · +998 94 973 97 77</p>
+    </div>
+    <p class="foot__legal">© 2026 Kosmos · <a href="maxfiylik.html">Maxfiylik siyosati / Privacy Policy</a></p>
+  </div>
+</footer>
+
+<script>
+(function () {
+  var nav = document.getElementById('nav');
+  var burger = document.getElementById('burger');
+  function onScroll() { nav.classList.toggle('nav--solid', window.scrollY > 40); }
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+
+  burger.addEventListener('click', function () {
+    var open = nav.classList.toggle('nav--open');
+    burger.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+  document.querySelectorAll('#menu a').forEach(function (a) {
+    a.addEventListener('click', function () { nav.classList.remove('nav--open'); burger.setAttribute('aria-expanded', 'false'); });
+  });
+
+  document.querySelectorAll('[data-gallery]').forEach(function (g) {
+    var img = g.querySelector('img');
+    g.querySelectorAll('button').forEach(function (b) {
+      b.addEventListener('click', function () {
+        img.src = b.getAttribute('data-src');
+        g.querySelectorAll('button').forEach(function (x) { x.classList.remove('is-on'); });
+        b.classList.add('is-on');
+      });
+    });
+  });
+
+  var items = document.querySelectorAll('.reveal');
+  if ('IntersectionObserver' in window && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    document.documentElement.classList.add('js-reveal');
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add('is-in'); io.unobserve(e.target); } });
+    }, { rootMargin: '0px 0px -8% 0px' });
+    items.forEach(function (el) { io.observe(el); });
+  }
+})();
+</script>
 </body>
 </html>
